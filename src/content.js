@@ -1,6 +1,5 @@
 function titleUpdate() {
-     document.getElementById('eow-title').innerHTML = "Change Title to test Response";
-     console.log("test");
+     document.getElementsByTagName("video")[0].playbackRate = 3;
 
      // Element exists, remove the event listeners so we don't run this twice
      document.removeEventListener('DOMNodeInserted', titleUpdate);
