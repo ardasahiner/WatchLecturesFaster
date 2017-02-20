@@ -1,4 +1,4 @@
-# WatchLecturesFaster
+# Watch Lectures Faster
 
 Ever needed to catch up on weeks worth of course material for that midterm that's coming up in two days? Feeling inefficient by watching lecture videos at a measly 2x speed?
 
