@@ -2,7 +2,7 @@
      "manifest_version": 2,
 
      "name": "Watch Lectures Faster",
-     "description": "",
+     "description": "/* Icon made by Madebyoliver from www.flaticon.com */",
      "version": "1.0",
      "icons": {
           "32": "assets/icon.png"
@@ -11,6 +11,7 @@
      "page_action": {
           "default_title": "Change Youtube Playback Speed"
      },
+
      "permissions": [
      ],
 
@@ -24,16 +25,14 @@
      "content_scripts": [
           {
                "matches": [
-                    "*://youtube.com/watch?v=*"
+                    "*://www.youtube.com/*"
                ],
                "js": [
                     "src/content.js"
                ],
                "css": [
                ],
-               "run_at": "document_start"
+               "run_at": "document_end"
           }
      ]
 }
-
-/* Icon made by Madebyoliver from www.flaticon.com */
