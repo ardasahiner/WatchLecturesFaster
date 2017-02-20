@@ -2,7 +2,7 @@
      "manifest_version": 2,
 
      "name": "Watch Lectures Faster",
-     "description": "/* Icon made by Madebyoliver from www.flaticon.com */",
+     "description": "",
      "version": "1.0",
      "icons": {
           "32": "assets/icon.png"
@@ -36,3 +36,5 @@
           }
      ]
 }
+
+/* Icon made by Madebyoliver from www.flaticon.com */
